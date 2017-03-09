@@ -1,0 +1,24 @@
+PODS:
+  - TwitterImagePipeline (2.2.2):
+    - TwitterImagePipeline/Default (= 2.2.2)
+  - TwitterImagePipeline/Default (2.2.2)
+
+DEPENDENCIES:
+  - TwitterImagePipeline (from `https://github.com/twitter/ios-twitter-image-pipeline.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  TwitterImagePipeline:
+    :branch: master
+    :git: https://github.com/twitter/ios-twitter-image-pipeline.git
+
+CHECKOUT OPTIONS:
+  TwitterImagePipeline:
+    :commit: ef6735789727067d808e6200db0cebb4b25d0b79
+    :git: https://github.com/twitter/ios-twitter-image-pipeline.git
+
+SPEC CHECKSUMS:
+  TwitterImagePipeline: 50900b24ddd7ba4e6fb11c178724d90a1eb8404e
+
+PODFILE CHECKSUM: 04b4109801c3ac210df3bce9ceac7a4f7393f2ea
+
+COCOAPODS: 1.2.0

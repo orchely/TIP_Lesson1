@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B6BA1EE116D41BF4AC25CAC1E471DA /* TwitterImagePipeline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C05DAF82D36691E44CC20C52916460 /* TwitterImagePipeline-dummy.m */; };
+		0AA2EDECD5EAF6B612047940CB39E94A /* TIPFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E385E974F639F29333B0C05CEC140C /* TIPFileUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1AAF4DEAD3459E17BC29857AB06FA8 /* TIPImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9944E48DDCA010EC5F94439E6338FA0 /* TIPImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8377EF25ABAB2823B1F299669973D1 /* NSOperationQueue+TIPSafety.m in Sources */ = {isa = PBXBuildFile; fileRef = F66F984A12E0ECE49B8D39236EBC529A /* NSOperationQueue+TIPSafety.m */; };
+		0F7C722808B91EE71E590027C7A3FA3C /* TIPProgressive.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE9F39723374EB4D4EDC1BD4BFD0505 /* TIPProgressive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15818C8B7DC2EE760FD2D7DEDF850495 /* TIPURLStringCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 96731B066EC8DF379EAF939D607A3036 /* TIPURLStringCoding.m */; };
+		15844C0BA5FD3A093B2F178B72991ADA /* TIPImageFetchProgressiveLoadingPolicy+StaticClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E11C48685AE2CC5A724CA060154F59 /* TIPImageFetchProgressiveLoadingPolicy+StaticClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161CCD1C9EF4D8B433892E0843071C37 /* TIP_ProjectCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2A41508FD0D7BE7E16C901CB7D15CB /* TIP_ProjectCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17530265C331376E6875F10D70E952A7 /* TIPImageFetchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8E6A4CEC1E3031FD00F5B1B20AD7E8 /* TIPImageFetchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17ADFA2D17D190A0C2DC7B80169D74D8 /* TIPImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2674106F7A3096F56E58D1975377CD /* TIPImageUtils.m */; };
+		1A93F3646B3671E827BB2144472A6F75 /* TIPImageRenderedCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CE291C1C5F0F73FB3E31A1FD4AF000DB /* TIPImageRenderedCache.m */; };
+		1EAA18C2B5D58B719682DE5E63152005 /* TIPImageContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F17C1BC761D71D001BC5EA38069274 /* TIPImageContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EC2D4ED0125012075E4A0ADCE03A96F /* TIPFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B265F5C9FC685CEE9159D874C61EE3D1 /* TIPFileUtils.m */; };
+		22A3AFBC7394A467A61AC5AF6C3FF513 /* TIPImageFetchOperation+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = C24EF3877677B81D23BEB03991F0A0E2 /* TIPImageFetchOperation+Project.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		253FF9DC48F9F967A034958824828675 /* TIPImageStoreRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E7C4F16840F4F14B6FE1CB8AB2628E /* TIPImageStoreRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267F772E8ABB46F41516716824BC444D /* TIPLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 35484C2EF3F9B5CCFCBC8E5A1DFA2279 /* TIPLRUCache.m */; };
+		2A4183F027AC6215C241847EB4C3C2B9 /* TIPTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = A07EB867AABEDBC5D7400BFAEDC40C23 /* TIPTiming.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D47D7663EC07B2C442D947527892C0F /* TIPImageFetchMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = A71D2BFE5BDD883AEF02B6792460BF1B /* TIPImageFetchMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE16EE3B592B91C0E54ACD418D8A2F5 /* TIPImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0826306B340761B10B68B35446DB62 /* TIPImageContainer.m */; };
+		322BABA0B6F9A2645A285E484C1E32E7 /* TIPImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E48E9CE84162D6298E1A4B288DE30826 /* TIPImageDownloader.m */; };
+		33852AFAEDA554285C4CAD2EF6724375 /* TIPLRUCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4C80A6A507A558F65E5C305FFE1B02 /* TIPLRUCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		356BD129E8FAD54BADEB53D030108290 /* TIPImageDownloadInternalContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B6F8F11978B9335F128495BB393F7D /* TIPImageDownloadInternalContext.m */; };
+		3832BADA68C7C93B6BA36DFF7BA3412A /* NSDictionary+TIPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EF1E7F86CDCF172A6EDA1AA6CE156F /* NSDictionary+TIPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39F12643E656AB7F13B5A4BE1FE77E39 /* TIP_ProjectCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 893AAE01188915FD9FAE675BEC0D5049 /* TIP_ProjectCommon.m */; };
+		3B8D9ECAD29E4EDCF30B02C2BDC4228B /* TIPImageDiskCacheTemporaryFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7368FFB282F8A3D88A9D1B93001D7B /* TIPImageDiskCacheTemporaryFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D240BF56BEEEFC4F96008BF32366273 /* TIPImagePipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = E783B8AE76EB8663FA1A0DE8AE05B6C4 /* TIPImagePipeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D88083C2EEB246E0AB64393C55432B8 /* TIPPartialImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 330E7513F1227A38E27E7B27CCC06A6A /* TIPPartialImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F44B9F9F1E7F23E4CD44BD809EDEAD3 /* TIPImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 480887DBF4BBFF104630585639F62172 /* TIPImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4143A37083753F4173919E81E116F68F /* TIPImageFetchDownloadInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7B5CEBC2DF6CC1DC15F419135835EC /* TIPImageFetchDownloadInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41689EDF0929DF2212EB50AE217E495F /* TIPImageStoreOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF18E3FCAF86459BB62C76AF24672A /* TIPImageStoreOperation.m */; };
+		43DC5BEF5C6518F83FAB429A02977226 /* Pods-TIP_Lesson1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC8D3C0FD6DA683228819A28460EF5 /* Pods-TIP_Lesson1-dummy.m */; };
+		4473070844DBCEF36F4901BA7E18ABAF /* TIPImageFetchDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D64B4BD6F6B77E3916F185942784CD /* TIPImageFetchDownload.m */; };
+		4D9B80CC58DCB5767395870400A672FE /* Pods-TIP_Lesson1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98AB645A7FC0E56EBE3E57C3FAFE82B4 /* Pods-TIP_Lesson1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5455F3587A608CF7A5576035407EDB7D /* TIPImageCodecs.m in Sources */ = {isa = PBXBuildFile; fileRef = F408C32E030684EA9555B1F0C7D9BEDD /* TIPImageCodecs.m */; };
+		54948189D1E4A66E4E9D67D34C09FDCE /* TIPImageMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CD1F76C913EAD8111E0CF921E4ECC5 /* TIPImageMemoryCache.m */; };
+		60036511E093E61F1DD985D1CD72ED7C /* TIPImageDownloadInternalContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 32061AC7B2054C0D6A8989140511AC43 /* TIPImageDownloadInternalContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6049437DB56F4FE2B933D1EF3F479E10 /* TIPImageTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9572EA98DCC7FE0A83EA973A32A4FA22 /* TIPImageTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D2BC1922D39EE07CB2B3392773DB4B /* TIPImagePipelineInspectionResult+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = E54C79533351F96F830604607D882A37 /* TIPImagePipelineInspectionResult+Project.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6282F6791BD2839B14C21CE2CAD39BCB /* TIPImageTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B6A60C739B1703F7877FC1DC42CA7B /* TIPImageTypes.m */; };
+		633BF4343134809B84A345FB25CFAF8A /* TIPTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9883CD85332950D213226A4AB8672D /* TIPTiming.m */; };
+		63C5AB4A592FB2E09030695BD34901F9 /* TIPImageCacheEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = E645F15E313C55C5EC903186EEB723B8 /* TIPImageCacheEntry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6688D81F2AC6FFB8582A46A2C859A004 /* UIImage+TIPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 904B785528148ADCDA518CF133C8A0C6 /* UIImage+TIPAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EB6B8C15C2E2E36C6984A20C9A9036 /* TIPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD65771934141034491E437CEA66112 /* TIPDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C9CD223085C7C79308A0003908F73B /* TIPInspectableCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C583CEC8656D330C0B2736C5F4CBAC65 /* TIPInspectableCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70A20370E4DAC9F43DC737CC2CF9CA30 /* TIPImageFetchProgressiveLoadingPolicies.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A507C25850307708C93AE48B947571 /* TIPImageFetchProgressiveLoadingPolicies.m */; };
+		70F0E27B66BDF6B4DA7C8C51E5C50399 /* TIPImageCodecCatalogue.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5DA7480484158F1C28C9092C92BCB4 /* TIPImageCodecCatalogue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		748D6829AFA2BAD50A64A4ABE1ECB8C9 /* TIPImageCodecs.h in Headers */ = {isa = PBXBuildFile; fileRef = 232038E01C3D30E1510622577A72ACD9 /* TIPImageCodecs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763AB3FDF4A2876B1738635D36D13533 /* TIPImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A584D7DF7D55748A6DBB21C5F4782B6E /* TIPImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A0D30FF7BF1A9D8B00AF8CD0262B7C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7C2945DC261423CE1A1719F928EBA9DB /* TIPImagePipeline+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6200EAD92FF9CE2E26E76024B65800 /* TIPImagePipeline+Project.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E873465D33035D84B825A0B5F0D24B1 /* TIPImageViewFetchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8131F5B6B737D76A71D635520ADB4C /* TIPImageViewFetchHelper.m */; };
+		7F032340640A83EEC5F6C92CCF16EA6A /* TIPLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EC54F0CFDA078077E866293B42503617 /* TIPLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8135CB5167F1F4F4081928F7198FED78 /* TIP_Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E79C2776A5E5E004C7754644F887D95 /* TIP_Project.m */; };
+		86279CCCE0056B8F65359E8565293E34 /* TIPImageRenderedCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC5B4678E2EC215BB42E0A15118DEBA /* TIPImageRenderedCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		866AE7BF1F6C53B10261387633A0F8D6 /* TIPImageDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1749833AACD6F5A99AEDDCA6AFA550 /* TIPImageDiskCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89DA081FD65FB4587629F61B371E9C6F /* TIPDefaultImageCodecs.h in Headers */ = {isa = PBXBuildFile; fileRef = 442622917B272D699116180BB79DD061 /* TIPDefaultImageCodecs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EBFB46FF11153E3509ADC01F1BFBFB3 /* TIPImageFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 454BE22D3E2AFC8DF83A334297F7463E /* TIPImageFetchOperation.m */; };
+		8F3BA82BA81602D955B2AF946E5B6AA4 /* TwitterImagePipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 38987742568C37613095CD4AA0B62980 /* TwitterImagePipeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		900D63A9A7720A80B2F47057B2B7FA0C /* TIPImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4D4881E8DED31B9DD8E4AC4515FE3F /* TIPImageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		957F462A6FABFB78DE1EFD4DBDF1EE5C /* TIPDefaultImageCodecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 8653B2934F267117E93B607DA0D42614 /* TIPDefaultImageCodecs.m */; };
+		9E996D053343DD71D4C7003E3E336F93 /* TIPImagePipelineInspectionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BFD711FB8F480B573FF9B27566A3E8 /* TIPImagePipelineInspectionResult.m */; };
+		A0BCD177E6D57DBF5E97CCF9AA87AB82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A2500AC234BCD45BA664D35798B9C6D5 /* UIImage+TIPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FDCFE0831EE086AE95C001C4143CF0 /* UIImage+TIPAdditions.m */; };
+		A751AA5E8967FC594BF67800BA33D9BA /* TIPImageFetchOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF25E0851801C5E94353C66849BF65D /* TIPImageFetchOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC064C20EC7E9E74D62D99B499767381 /* TIPImageViewFetchHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A81AF4A45EC7989258458F7A75C0CF /* TIPImageViewFetchHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B41C534161B5F05872A9B2801A2B1E07 /* TIPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A95D2163092E04C2EF7E544221B52 /* TIPImageView.m */; };
+		B4EC064724EE7CF01144C0088CF7B078 /* TIPImageFetchMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = E72159DD58D740CC7EBA43EAC3AD4E6B /* TIPImageFetchMetrics.m */; };
+		BA6AE2CB041888A24A00627F9207FC81 /* NSOperationQueue+TIPSafety.h in Headers */ = {isa = PBXBuildFile; fileRef = 26505A023409E009751BB8EB5E550330 /* NSOperationQueue+TIPSafety.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAD9D795E3D3E92AA51A2770F4F664D7 /* NSData+TIPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 674B8042891259BA6C5920CD70305B4E /* NSData+TIPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDDB40196EF34C85C562E075ADF6AC89 /* TIPImagePipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D52F6B6DC8CFFE80902F0DB66A3436 /* TIPImagePipeline.m */; };
+		BEDC40E696FF08ADE6CDB7C5A6EDF8B4 /* TIPImageStoreOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D1119A982E0A9D18051D188C1C45085D /* TIPImageStoreOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1B0D82A3DE40A0A8F87AD2C53777B5B /* TIPImageCodecCatalogue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF795C908748DDD89BA5FACF0EDA8B5 /* TIPImageCodecCatalogue.m */; };
+		C1C5C9FABA2AC1597DF891D5D27DCEBD /* TIPPartialImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F8D23CC249B0B7EF6AFD3BD93D8D86 /* TIPPartialImage.m */; };
+		C6EF81D433AF978035B5C2DAB6FA79A6 /* NSData+TIPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 794B8F49614D1FFFBA86AD44AA9C325B /* NSData+TIPAdditions.m */; };
+		CB4F1ECF6791915D736844B9C8EAC170 /* TIPImageCacheEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F95DD355DD765E22F223D8EF92B204EC /* TIPImageCacheEntry.m */; };
+		CDE3AEDFE508A7E0708B527A3702C4ED /* TIPImagePipelineInspectionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AAD5B11A5B510075E6F8240FE0324E /* TIPImagePipelineInspectionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1FCB24919397B961C879D4C69FFF044 /* TIPGlobalConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 85345A54CBE96CFB3DA87262B23CA771 /* TIPGlobalConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA72E232C802F3BD37DA518F30B3507 /* TIPImageFetchDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 91078D48BFAEC8146BB3FF3AA37D0694 /* TIPImageFetchDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC890186F4089A6FBA6A93DCB0F1F2B /* TIPGlobalConfiguration+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 5957EC43C4793D4D8990E7802ACF6F57 /* TIPGlobalConfiguration+Project.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DECF7318E13326596A9A63E1D92F9461 /* TIPImageFetchMetrics+Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8A913B42578EFBF61864980A4ECADD /* TIPImageFetchMetrics+Project.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF60FB4FB007DEF3DE0BD6B9E2D9A742 /* NSDictionary+TIPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 531DD7171F492F5B2AE4ACC35E00788C /* NSDictionary+TIPAdditions.m */; };
+		E30950E42ED16AC1C473E42A82DDFD71 /* TIPImageFetchProgressiveLoadingPolicies.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FE7F71E1F750809D310DD032D4412E /* TIPImageFetchProgressiveLoadingPolicies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4261E2B1303C83EAAF5C85889CE9C16 /* TwitterImagePipeline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A80E08A98A7BA8E8D3DA5CEC0767AF /* TwitterImagePipeline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFB6ED61EAA3FD1DFE67A878A4A1725C /* TIPImageDiskCacheTemporaryFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 140AAA664B2872C5089DFFF58AF64200 /* TIPImageDiskCacheTemporaryFile.m */; };
+		F3A78F98A5299D31E2D5EAEA43BCB065 /* TIP_Project.h in Headers */ = {isa = PBXBuildFile; fileRef = 8822DCD961F4F010134F9D68E2A74213 /* TIP_Project.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F42177FB08EE85FF9174CE609017E145 /* TIPImageDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FDCBCB82F07968D03D4779BE12F87 /* TIPImageDiskCache.m */; };
+		F5F9793C021BE56277F73610ACBD6521 /* TIPImageFetchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BCB4452AE91EDEF6F26B86379FA023A /* TIPImageFetchDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6739DA73356677E6C91F04CB05070B7 /* TIPGlobalConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F9B020D7B7E6885F7237397B2403E0 /* TIPGlobalConfiguration.m */; };
+		F85DB33C6943C0A105D4F84F5FFA6D85 /* TIPURLStringCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5D8FDB6E121D5EBC040FE82EDBB84E /* TIPURLStringCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC877B8C66FFA8703365C47858971B34 /* TIPError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1CFECA2210DD9719C1B28EEB98C4B3 /* TIPError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE26173A54A9BD723D9CDAA95B8E94DE /* TIPImageMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF98A61E169AD18505DD26F48968D13 /* TIPImageMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62BA7763BD7717596D032877F2CA489D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07783F1FDFD00069E80018A32CE4F234;
+			remoteInfo = TwitterImagePipeline;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E385E974F639F29333B0C05CEC140C /* TIPFileUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPFileUtils.h; path = TwitterImagePipeline/TIPFileUtils.h; sourceTree = "<group>"; };
+		0BCB4452AE91EDEF6F26B86379FA023A /* TIPImageFetchDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageFetchDelegate.h; path = TwitterImagePipeline/TIPImageFetchDelegate.h; sourceTree = "<group>"; };
+		140AAA664B2872C5089DFFF58AF64200 /* TIPImageDiskCacheTemporaryFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageDiskCacheTemporaryFile.m; path = TwitterImagePipeline/Project/TIPImageDiskCacheTemporaryFile.m; sourceTree = "<group>"; };
+		16FDCFE0831EE086AE95C001C4143CF0 /* UIImage+TIPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+TIPAdditions.m"; path = "TwitterImagePipeline/UIImage+TIPAdditions.m"; sourceTree = "<group>"; };
+		1CE9F39723374EB4D4EDC1BD4BFD0505 /* TIPProgressive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPProgressive.h; path = TwitterImagePipeline/TIPProgressive.h; sourceTree = "<group>"; };
+		1F4D4881E8DED31B9DD8E4AC4515FE3F /* TIPImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageUtils.h; path = TwitterImagePipeline/TIPImageUtils.h; sourceTree = "<group>"; };
+		211FDCBCB82F07968D03D4779BE12F87 /* TIPImageDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageDiskCache.m; path = TwitterImagePipeline/Project/TIPImageDiskCache.m; sourceTree = "<group>"; };
+		22A80E08A98A7BA8E8D3DA5CEC0767AF /* TwitterImagePipeline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitterImagePipeline-umbrella.h"; sourceTree = "<group>"; };
+		22A81AF4A45EC7989258458F7A75C0CF /* TIPImageViewFetchHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageViewFetchHelper.h; path = TwitterImagePipeline/TIPImageViewFetchHelper.h; sourceTree = "<group>"; };
+		232038E01C3D30E1510622577A72ACD9 /* TIPImageCodecs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageCodecs.h; path = TwitterImagePipeline/TIPImageCodecs.h; sourceTree = "<group>"; };
+		24E11C48685AE2CC5A724CA060154F59 /* TIPImageFetchProgressiveLoadingPolicy+StaticClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TIPImageFetchProgressiveLoadingPolicy+StaticClass.h"; path = "TwitterImagePipeline/TIPImageFetchProgressiveLoadingPolicy+StaticClass.h"; sourceTree = "<group>"; };
+		26505A023409E009751BB8EB5E550330 /* NSOperationQueue+TIPSafety.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOperationQueue+TIPSafety.h"; path = "TwitterImagePipeline/Project/NSOperationQueue+TIPSafety.h"; sourceTree = "<group>"; };
+		2CC5B4678E2EC215BB42E0A15118DEBA /* TIPImageRenderedCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageRenderedCache.h; path = TwitterImagePipeline/Project/TIPImageRenderedCache.h; sourceTree = "<group>"; };
+		2F8A913B42578EFBF61864980A4ECADD /* TIPImageFetchMetrics+Project.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TIPImageFetchMetrics+Project.h"; path = "TwitterImagePipeline/Project/TIPImageFetchMetrics+Project.h"; sourceTree = "<group>"; };
+		2FCB38F4ABD3B5D1DC3E24B40A6AD803 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32061AC7B2054C0D6A8989140511AC43 /* TIPImageDownloadInternalContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageDownloadInternalContext.h; path = TwitterImagePipeline/Project/TIPImageDownloadInternalContext.h; sourceTree = "<group>"; };
+		330E7513F1227A38E27E7B27CCC06A6A /* TIPPartialImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPPartialImage.h; path = TwitterImagePipeline/Project/TIPPartialImage.h; sourceTree = "<group>"; };
+		35484C2EF3F9B5CCFCBC8E5A1DFA2279 /* TIPLRUCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPLRUCache.m; path = TwitterImagePipeline/Project/TIPLRUCache.m; sourceTree = "<group>"; };
+		36E7C4F16840F4F14B6FE1CB8AB2628E /* TIPImageStoreRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageStoreRequest.h; path = TwitterImagePipeline/TIPImageStoreRequest.h; sourceTree = "<group>"; };
+		37F9B020D7B7E6885F7237397B2403E0 /* TIPGlobalConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPGlobalConfiguration.m; path = TwitterImagePipeline/TIPGlobalConfiguration.m; sourceTree = "<group>"; };
+		38987742568C37613095CD4AA0B62980 /* TwitterImagePipeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TwitterImagePipeline.h; path = TwitterImagePipeline/TwitterImagePipeline.h; sourceTree = "<group>"; };
+		3B7B5CEBC2DF6CC1DC15F419135835EC /* TIPImageFetchDownloadInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageFetchDownloadInternal.h; path = TwitterImagePipeline/Project/TIPImageFetchDownloadInternal.h; sourceTree = "<group>"; };
+		3D1CFECA2210DD9719C1B28EEB98C4B3 /* TIPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPError.h; path = TwitterImagePipeline/TIPError.h; sourceTree = "<group>"; };
+		3E79C2776A5E5E004C7754644F887D95 /* TIP_Project.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIP_Project.m; path = TwitterImagePipeline/Project/TIP_Project.m; sourceTree = "<group>"; };
+		40CD1F76C913EAD8111E0CF921E4ECC5 /* TIPImageMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageMemoryCache.m; path = TwitterImagePipeline/Project/TIPImageMemoryCache.m; sourceTree = "<group>"; };
+		41B6A60C739B1703F7877FC1DC42CA7B /* TIPImageTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageTypes.m; path = TwitterImagePipeline/TIPImageTypes.m; sourceTree = "<group>"; };
+		41D52F6B6DC8CFFE80902F0DB66A3436 /* TIPImagePipeline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImagePipeline.m; path = TwitterImagePipeline/TIPImagePipeline.m; sourceTree = "<group>"; };
+		42B6F8F11978B9335F128495BB393F7D /* TIPImageDownloadInternalContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageDownloadInternalContext.m; path = TwitterImagePipeline/Project/TIPImageDownloadInternalContext.m; sourceTree = "<group>"; };
+		435A95D2163092E04C2EF7E544221B52 /* TIPImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageView.m; path = TwitterImagePipeline/TIPImageView.m; sourceTree = "<group>"; };
+		442622917B272D699116180BB79DD061 /* TIPDefaultImageCodecs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPDefaultImageCodecs.h; path = TwitterImagePipeline/Project/TIPDefaultImageCodecs.h; sourceTree = "<group>"; };
+		454BE22D3E2AFC8DF83A334297F7463E /* TIPImageFetchOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageFetchOperation.m; path = TwitterImagePipeline/TIPImageFetchOperation.m; sourceTree = "<group>"; };
+		480887DBF4BBFF104630585639F62172 /* TIPImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageCache.h; path = TwitterImagePipeline/Project/TIPImageCache.h; sourceTree = "<group>"; };
+		48F934A02CE9BA916DC86DEF1BA6D6FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531DD7171F492F5B2AE4ACC35E00788C /* NSDictionary+TIPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+TIPAdditions.m"; path = "TwitterImagePipeline/Project/NSDictionary+TIPAdditions.m"; sourceTree = "<group>"; };
+		54BFD711FB8F480B573FF9B27566A3E8 /* TIPImagePipelineInspectionResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImagePipelineInspectionResult.m; path = TwitterImagePipeline/TIPImagePipelineInspectionResult.m; sourceTree = "<group>"; };
+		55EF1E7F86CDCF172A6EDA1AA6CE156F /* NSDictionary+TIPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+TIPAdditions.h"; path = "TwitterImagePipeline/Project/NSDictionary+TIPAdditions.h"; sourceTree = "<group>"; };
+		5957EC43C4793D4D8990E7802ACF6F57 /* TIPGlobalConfiguration+Project.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TIPGlobalConfiguration+Project.h"; path = "TwitterImagePipeline/Project/TIPGlobalConfiguration+Project.h"; sourceTree = "<group>"; };
+		595CB13A66A9A5EACA8031887C6E99A7 /* Pods-TIP_Lesson1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIP_Lesson1.debug.xcconfig"; sourceTree = "<group>"; };
+		5C09B7FD87BDC813EEFAE5DFF81F57A2 /* Pods-TIP_Lesson1-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIP_Lesson1-resources.sh"; sourceTree = "<group>"; };
+		5C2A41508FD0D7BE7E16C901CB7D15CB /* TIP_ProjectCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIP_ProjectCommon.h; path = TwitterImagePipeline/Project/TIP_ProjectCommon.h; sourceTree = "<group>"; };
+		5C9883CD85332950D213226A4AB8672D /* TIPTiming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPTiming.m; path = TwitterImagePipeline/Project/TIPTiming.m; sourceTree = "<group>"; };
+		5D1749833AACD6F5A99AEDDCA6AFA550 /* TIPImageDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageDiskCache.h; path = TwitterImagePipeline/Project/TIPImageDiskCache.h; sourceTree = "<group>"; };
+		5D7A0C1D06393F53A371B5996A279AD5 /* TwitterImagePipeline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitterImagePipeline-prefix.pch"; sourceTree = "<group>"; };
+		5E16515597E95C4494BEA0E449F03DDD /* Pods_TIP_Lesson1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TIP_Lesson1.framework; path = "Pods-TIP_Lesson1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0826306B340761B10B68B35446DB62 /* TIPImageContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageContainer.m; path = TwitterImagePipeline/TIPImageContainer.m; sourceTree = "<group>"; };
+		65D64B4BD6F6B77E3916F185942784CD /* TIPImageFetchDownload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageFetchDownload.m; path = TwitterImagePipeline/TIPImageFetchDownload.m; sourceTree = "<group>"; };
+		674B8042891259BA6C5920CD70305B4E /* NSData+TIPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+TIPAdditions.h"; path = "TwitterImagePipeline/Project/NSData+TIPAdditions.h"; sourceTree = "<group>"; };
+		6C8E6A4CEC1E3031FD00F5B1B20AD7E8 /* TIPImageFetchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageFetchRequest.h; path = TwitterImagePipeline/TIPImageFetchRequest.h; sourceTree = "<group>"; };
+		6D8131F5B6B737D76A71D635520ADB4C /* TIPImageViewFetchHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageViewFetchHelper.m; path = TwitterImagePipeline/TIPImageViewFetchHelper.m; sourceTree = "<group>"; };
+		6EF795C908748DDD89BA5FACF0EDA8B5 /* TIPImageCodecCatalogue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageCodecCatalogue.m; path = TwitterImagePipeline/TIPImageCodecCatalogue.m; sourceTree = "<group>"; };
+		794B8F49614D1FFFBA86AD44AA9C325B /* NSData+TIPAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+TIPAdditions.m"; path = "TwitterImagePipeline/Project/NSData+TIPAdditions.m"; sourceTree = "<group>"; };
+		79AC8D3C0FD6DA683228819A28460EF5 /* Pods-TIP_Lesson1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TIP_Lesson1-dummy.m"; sourceTree = "<group>"; };
+		7E4C80A6A507A558F65E5C305FFE1B02 /* TIPLRUCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPLRUCache.h; path = TwitterImagePipeline/Project/TIPLRUCache.h; sourceTree = "<group>"; };
+		7F7368FFB282F8A3D88A9D1B93001D7B /* TIPImageDiskCacheTemporaryFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageDiskCacheTemporaryFile.h; path = TwitterImagePipeline/Project/TIPImageDiskCacheTemporaryFile.h; sourceTree = "<group>"; };
+		80F8D23CC249B0B7EF6AFD3BD93D8D86 /* TIPPartialImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPPartialImage.m; path = TwitterImagePipeline/Project/TIPPartialImage.m; sourceTree = "<group>"; };
+		83FE7F71E1F750809D310DD032D4412E /* TIPImageFetchProgressiveLoadingPolicies.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageFetchProgressiveLoadingPolicies.h; path = TwitterImagePipeline/TIPImageFetchProgressiveLoadingPolicies.h; sourceTree = "<group>"; };
+		85345A54CBE96CFB3DA87262B23CA771 /* TIPGlobalConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPGlobalConfiguration.h; path = TwitterImagePipeline/TIPGlobalConfiguration.h; sourceTree = "<group>"; };
+		8653B2934F267117E93B607DA0D42614 /* TIPDefaultImageCodecs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPDefaultImageCodecs.m; path = TwitterImagePipeline/Project/TIPDefaultImageCodecs.m; sourceTree = "<group>"; };
+		8822DCD961F4F010134F9D68E2A74213 /* TIP_Project.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIP_Project.h; path = TwitterImagePipeline/Project/TIP_Project.h; sourceTree = "<group>"; };
+		893AAE01188915FD9FAE675BEC0D5049 /* TIP_ProjectCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIP_ProjectCommon.m; path = TwitterImagePipeline/Project/TIP_ProjectCommon.m; sourceTree = "<group>"; };
+		8E6200EAD92FF9CE2E26E76024B65800 /* TIPImagePipeline+Project.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TIPImagePipeline+Project.h"; path = "TwitterImagePipeline/Project/TIPImagePipeline+Project.h"; sourceTree = "<group>"; };
+		904B785528148ADCDA518CF133C8A0C6 /* UIImage+TIPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+TIPAdditions.h"; path = "TwitterImagePipeline/UIImage+TIPAdditions.h"; sourceTree = "<group>"; };
+		91078D48BFAEC8146BB3FF3AA37D0694 /* TIPImageFetchDownload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageFetchDownload.h; path = TwitterImagePipeline/TIPImageFetchDownload.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9572EA98DCC7FE0A83EA973A32A4FA22 /* TIPImageTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageTypes.h; path = TwitterImagePipeline/TIPImageTypes.h; sourceTree = "<group>"; };
+		96731B066EC8DF379EAF939D607A3036 /* TIPURLStringCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPURLStringCoding.m; path = TwitterImagePipeline/Project/TIPURLStringCoding.m; sourceTree = "<group>"; };
+		98AB645A7FC0E56EBE3E57C3FAFE82B4 /* Pods-TIP_Lesson1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TIP_Lesson1-umbrella.h"; sourceTree = "<group>"; };
+		9CB9F5E75E8941A3BF6136B780C6B6DA /* Pods-TIP_Lesson1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TIP_Lesson1.release.xcconfig"; sourceTree = "<group>"; };
+		9E9859F790CDAAF4D79B2FB3CFF7D69B /* TwitterImagePipeline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TwitterImagePipeline.modulemap; sourceTree = "<group>"; };
+		A07EB867AABEDBC5D7400BFAEDC40C23 /* TIPTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPTiming.h; path = TwitterImagePipeline/Project/TIPTiming.h; sourceTree = "<group>"; };
+		A584D7DF7D55748A6DBB21C5F4782B6E /* TIPImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageDownloader.h; path = TwitterImagePipeline/Project/TIPImageDownloader.h; sourceTree = "<group>"; };
+		A71D2BFE5BDD883AEF02B6792460BF1B /* TIPImageFetchMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageFetchMetrics.h; path = TwitterImagePipeline/TIPImageFetchMetrics.h; sourceTree = "<group>"; };
+		A7645CC1D3A559A9EFB5FEE2B076B7F7 /* TwitterImagePipeline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitterImagePipeline.xcconfig; sourceTree = "<group>"; };
+		B265F5C9FC685CEE9159D874C61EE3D1 /* TIPFileUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPFileUtils.m; path = TwitterImagePipeline/TIPFileUtils.m; sourceTree = "<group>"; };
+		B9944E48DDCA010EC5F94439E6338FA0 /* TIPImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageView.h; path = TwitterImagePipeline/TIPImageView.h; sourceTree = "<group>"; };
+		BBD65771934141034491E437CEA66112 /* TIPDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPDefinitions.h; path = TwitterImagePipeline/TIPDefinitions.h; sourceTree = "<group>"; };
+		BCF98A61E169AD18505DD26F48968D13 /* TIPImageMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageMemoryCache.h; path = TwitterImagePipeline/Project/TIPImageMemoryCache.h; sourceTree = "<group>"; };
+		BD33213529A2B7DE65A6E2781392C707 /* Pods-TIP_Lesson1-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TIP_Lesson1-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD4DCF0716C1C004AA8B459C002934A0 /* Pods-TIP_Lesson1-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TIP_Lesson1-frameworks.sh"; sourceTree = "<group>"; };
+		C24EF3877677B81D23BEB03991F0A0E2 /* TIPImageFetchOperation+Project.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TIPImageFetchOperation+Project.h"; path = "TwitterImagePipeline/Project/TIPImageFetchOperation+Project.h"; sourceTree = "<group>"; };
+		C583CEC8656D330C0B2736C5F4CBAC65 /* TIPInspectableCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPInspectableCache.h; path = TwitterImagePipeline/Project/TIPInspectableCache.h; sourceTree = "<group>"; };
+		C6A507C25850307708C93AE48B947571 /* TIPImageFetchProgressiveLoadingPolicies.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageFetchProgressiveLoadingPolicies.m; path = TwitterImagePipeline/TIPImageFetchProgressiveLoadingPolicies.m; sourceTree = "<group>"; };
+		C6B303B61AD3FE3F3CA2BE1A476D97A4 /* TwitterImagePipeline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwitterImagePipeline.framework; path = TwitterImagePipeline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE291C1C5F0F73FB3E31A1FD4AF000DB /* TIPImageRenderedCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageRenderedCache.m; path = TwitterImagePipeline/Project/TIPImageRenderedCache.m; sourceTree = "<group>"; };
+		CFF25E0851801C5E94353C66849BF65D /* TIPImageFetchOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageFetchOperation.h; path = TwitterImagePipeline/TIPImageFetchOperation.h; sourceTree = "<group>"; };
+		D1119A982E0A9D18051D188C1C45085D /* TIPImageStoreOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageStoreOperation.h; path = TwitterImagePipeline/Project/TIPImageStoreOperation.h; sourceTree = "<group>"; };
+		D37E1A67677C39E2443A10ED0E633901 /* Pods-TIP_Lesson1-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TIP_Lesson1-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3C05DAF82D36691E44CC20C52916460 /* TwitterImagePipeline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwitterImagePipeline-dummy.m"; sourceTree = "<group>"; };
+		D4754CEF7C1F1805E9DA567E43111461 /* Pods-TIP_Lesson1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TIP_Lesson1.modulemap"; sourceTree = "<group>"; };
+		D5F17C1BC761D71D001BC5EA38069274 /* TIPImageContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageContainer.h; path = TwitterImagePipeline/TIPImageContainer.h; sourceTree = "<group>"; };
+		DB5D8FDB6E121D5EBC040FE82EDBB84E /* TIPURLStringCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPURLStringCoding.h; path = TwitterImagePipeline/Project/TIPURLStringCoding.h; sourceTree = "<group>"; };
+		DE5DA7480484158F1C28C9092C92BCB4 /* TIPImageCodecCatalogue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageCodecCatalogue.h; path = TwitterImagePipeline/TIPImageCodecCatalogue.h; sourceTree = "<group>"; };
+		E48E9CE84162D6298E1A4B288DE30826 /* TIPImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageDownloader.m; path = TwitterImagePipeline/Project/TIPImageDownloader.m; sourceTree = "<group>"; };
+		E54C79533351F96F830604607D882A37 /* TIPImagePipelineInspectionResult+Project.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TIPImagePipelineInspectionResult+Project.h"; path = "TwitterImagePipeline/Project/TIPImagePipelineInspectionResult+Project.h"; sourceTree = "<group>"; };
+		E645F15E313C55C5EC903186EEB723B8 /* TIPImageCacheEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImageCacheEntry.h; path = TwitterImagePipeline/Project/TIPImageCacheEntry.h; sourceTree = "<group>"; };
+		E72159DD58D740CC7EBA43EAC3AD4E6B /* TIPImageFetchMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageFetchMetrics.m; path = TwitterImagePipeline/TIPImageFetchMetrics.m; sourceTree = "<group>"; };
+		E783B8AE76EB8663FA1A0DE8AE05B6C4 /* TIPImagePipeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImagePipeline.h; path = TwitterImagePipeline/TIPImagePipeline.h; sourceTree = "<group>"; };
+		EB2674106F7A3096F56E58D1975377CD /* TIPImageUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageUtils.m; path = TwitterImagePipeline/TIPImageUtils.m; sourceTree = "<group>"; };
+		EC54F0CFDA078077E866293B42503617 /* TIPLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPLogger.h; path = TwitterImagePipeline/TIPLogger.h; sourceTree = "<group>"; };
+		F408C32E030684EA9555B1F0C7D9BEDD /* TIPImageCodecs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageCodecs.m; path = TwitterImagePipeline/TIPImageCodecs.m; sourceTree = "<group>"; };
+		F5AAD5B11A5B510075E6F8240FE0324E /* TIPImagePipelineInspectionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TIPImagePipelineInspectionResult.h; path = TwitterImagePipeline/TIPImagePipelineInspectionResult.h; sourceTree = "<group>"; };
+		F5DF18E3FCAF86459BB62C76AF24672A /* TIPImageStoreOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageStoreOperation.m; path = TwitterImagePipeline/Project/TIPImageStoreOperation.m; sourceTree = "<group>"; };
+		F66F984A12E0ECE49B8D39236EBC529A /* NSOperationQueue+TIPSafety.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOperationQueue+TIPSafety.m"; path = "TwitterImagePipeline/Project/NSOperationQueue+TIPSafety.m"; sourceTree = "<group>"; };
+		F95DD355DD765E22F223D8EF92B204EC /* TIPImageCacheEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TIPImageCacheEntry.m; path = TwitterImagePipeline/Project/TIPImageCacheEntry.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D278801BD82B388C0194F49531C9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BCD177E6D57DBF5E97CCF9AA87AB82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D5BC0868D48E791F11A3386E158063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0D30FF7BF1A9D8B00AF8CD0262B7C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBEDAD3788B86ABEA01E1CD233961AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7368460BA69B440FFCB824A80681C9AF /* TwitterImagePipeline */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		126E029CF8F986ABF97836EF16E1CB9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A636C2B99BDE6BCBF0C683FA630B8A5F /* Pods-TIP_Lesson1 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1713357E3DC3F33991622530A8842838 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCB38F4ABD3B5D1DC3E24B40A6AD803 /* Info.plist */,
+				9E9859F790CDAAF4D79B2FB3CFF7D69B /* TwitterImagePipeline.modulemap */,
+				A7645CC1D3A559A9EFB5FEE2B076B7F7 /* TwitterImagePipeline.xcconfig */,
+				D3C05DAF82D36691E44CC20C52916460 /* TwitterImagePipeline-dummy.m */,
+				5D7A0C1D06393F53A371B5996A279AD5 /* TwitterImagePipeline-prefix.pch */,
+				22A80E08A98A7BA8E8D3DA5CEC0767AF /* TwitterImagePipeline-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TwitterImagePipeline";
+			sourceTree = "<group>";
+		};
+		7368460BA69B440FFCB824A80681C9AF /* TwitterImagePipeline */ = {
+			isa = PBXGroup;
+			children = (
+				8387C2C36768F787FB57AC16B0BF138E /* Default */,
+				1713357E3DC3F33991622530A8842838 /* Support Files */,
+			);
+			name = TwitterImagePipeline;
+			path = TwitterImagePipeline;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0CBEDAD3788B86ABEA01E1CD233961AB /* Pods */,
+				CAB42B539CD3F5FBDC23C26BD392CDD7 /* Products */,
+				126E029CF8F986ABF97836EF16E1CB9A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8387C2C36768F787FB57AC16B0BF138E /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				674B8042891259BA6C5920CD70305B4E /* NSData+TIPAdditions.h */,
+				794B8F49614D1FFFBA86AD44AA9C325B /* NSData+TIPAdditions.m */,
+				55EF1E7F86CDCF172A6EDA1AA6CE156F /* NSDictionary+TIPAdditions.h */,
+				531DD7171F492F5B2AE4ACC35E00788C /* NSDictionary+TIPAdditions.m */,
+				26505A023409E009751BB8EB5E550330 /* NSOperationQueue+TIPSafety.h */,
+				F66F984A12E0ECE49B8D39236EBC529A /* NSOperationQueue+TIPSafety.m */,
+				8822DCD961F4F010134F9D68E2A74213 /* TIP_Project.h */,
+				3E79C2776A5E5E004C7754644F887D95 /* TIP_Project.m */,
+				5C2A41508FD0D7BE7E16C901CB7D15CB /* TIP_ProjectCommon.h */,
+				893AAE01188915FD9FAE675BEC0D5049 /* TIP_ProjectCommon.m */,
+				442622917B272D699116180BB79DD061 /* TIPDefaultImageCodecs.h */,
+				8653B2934F267117E93B607DA0D42614 /* TIPDefaultImageCodecs.m */,
+				BBD65771934141034491E437CEA66112 /* TIPDefinitions.h */,
+				3D1CFECA2210DD9719C1B28EEB98C4B3 /* TIPError.h */,
+				04E385E974F639F29333B0C05CEC140C /* TIPFileUtils.h */,
+				B265F5C9FC685CEE9159D874C61EE3D1 /* TIPFileUtils.m */,
+				85345A54CBE96CFB3DA87262B23CA771 /* TIPGlobalConfiguration.h */,
+				37F9B020D7B7E6885F7237397B2403E0 /* TIPGlobalConfiguration.m */,
+				5957EC43C4793D4D8990E7802ACF6F57 /* TIPGlobalConfiguration+Project.h */,
+				480887DBF4BBFF104630585639F62172 /* TIPImageCache.h */,
+				E645F15E313C55C5EC903186EEB723B8 /* TIPImageCacheEntry.h */,
+				F95DD355DD765E22F223D8EF92B204EC /* TIPImageCacheEntry.m */,
+				DE5DA7480484158F1C28C9092C92BCB4 /* TIPImageCodecCatalogue.h */,
+				6EF795C908748DDD89BA5FACF0EDA8B5 /* TIPImageCodecCatalogue.m */,
+				232038E01C3D30E1510622577A72ACD9 /* TIPImageCodecs.h */,
+				F408C32E030684EA9555B1F0C7D9BEDD /* TIPImageCodecs.m */,
+				D5F17C1BC761D71D001BC5EA38069274 /* TIPImageContainer.h */,
+				5F0826306B340761B10B68B35446DB62 /* TIPImageContainer.m */,
+				5D1749833AACD6F5A99AEDDCA6AFA550 /* TIPImageDiskCache.h */,
+				211FDCBCB82F07968D03D4779BE12F87 /* TIPImageDiskCache.m */,
+				7F7368FFB282F8A3D88A9D1B93001D7B /* TIPImageDiskCacheTemporaryFile.h */,
+				140AAA664B2872C5089DFFF58AF64200 /* TIPImageDiskCacheTemporaryFile.m */,
+				A584D7DF7D55748A6DBB21C5F4782B6E /* TIPImageDownloader.h */,
+				E48E9CE84162D6298E1A4B288DE30826 /* TIPImageDownloader.m */,
+				32061AC7B2054C0D6A8989140511AC43 /* TIPImageDownloadInternalContext.h */,
+				42B6F8F11978B9335F128495BB393F7D /* TIPImageDownloadInternalContext.m */,
+				0BCB4452AE91EDEF6F26B86379FA023A /* TIPImageFetchDelegate.h */,
+				91078D48BFAEC8146BB3FF3AA37D0694 /* TIPImageFetchDownload.h */,
+				65D64B4BD6F6B77E3916F185942784CD /* TIPImageFetchDownload.m */,
+				3B7B5CEBC2DF6CC1DC15F419135835EC /* TIPImageFetchDownloadInternal.h */,
+				A71D2BFE5BDD883AEF02B6792460BF1B /* TIPImageFetchMetrics.h */,
+				E72159DD58D740CC7EBA43EAC3AD4E6B /* TIPImageFetchMetrics.m */,
+				2F8A913B42578EFBF61864980A4ECADD /* TIPImageFetchMetrics+Project.h */,
+				CFF25E0851801C5E94353C66849BF65D /* TIPImageFetchOperation.h */,
+				454BE22D3E2AFC8DF83A334297F7463E /* TIPImageFetchOperation.m */,
+				C24EF3877677B81D23BEB03991F0A0E2 /* TIPImageFetchOperation+Project.h */,
+				83FE7F71E1F750809D310DD032D4412E /* TIPImageFetchProgressiveLoadingPolicies.h */,
+				C6A507C25850307708C93AE48B947571 /* TIPImageFetchProgressiveLoadingPolicies.m */,
+				24E11C48685AE2CC5A724CA060154F59 /* TIPImageFetchProgressiveLoadingPolicy+StaticClass.h */,
+				6C8E6A4CEC1E3031FD00F5B1B20AD7E8 /* TIPImageFetchRequest.h */,
+				BCF98A61E169AD18505DD26F48968D13 /* TIPImageMemoryCache.h */,
+				40CD1F76C913EAD8111E0CF921E4ECC5 /* TIPImageMemoryCache.m */,
+				E783B8AE76EB8663FA1A0DE8AE05B6C4 /* TIPImagePipeline.h */,
+				41D52F6B6DC8CFFE80902F0DB66A3436 /* TIPImagePipeline.m */,
+				8E6200EAD92FF9CE2E26E76024B65800 /* TIPImagePipeline+Project.h */,
+				F5AAD5B11A5B510075E6F8240FE0324E /* TIPImagePipelineInspectionResult.h */,
+				54BFD711FB8F480B573FF9B27566A3E8 /* TIPImagePipelineInspectionResult.m */,
+				E54C79533351F96F830604607D882A37 /* TIPImagePipelineInspectionResult+Project.h */,
+				2CC5B4678E2EC215BB42E0A15118DEBA /* TIPImageRenderedCache.h */,
+				CE291C1C5F0F73FB3E31A1FD4AF000DB /* TIPImageRenderedCache.m */,
+				D1119A982E0A9D18051D188C1C45085D /* TIPImageStoreOperation.h */,
+				F5DF18E3FCAF86459BB62C76AF24672A /* TIPImageStoreOperation.m */,
+				36E7C4F16840F4F14B6FE1CB8AB2628E /* TIPImageStoreRequest.h */,
+				9572EA98DCC7FE0A83EA973A32A4FA22 /* TIPImageTypes.h */,
+				41B6A60C739B1703F7877FC1DC42CA7B /* TIPImageTypes.m */,
+				1F4D4881E8DED31B9DD8E4AC4515FE3F /* TIPImageUtils.h */,
+				EB2674106F7A3096F56E58D1975377CD /* TIPImageUtils.m */,
+				B9944E48DDCA010EC5F94439E6338FA0 /* TIPImageView.h */,
+				435A95D2163092E04C2EF7E544221B52 /* TIPImageView.m */,
+				22A81AF4A45EC7989258458F7A75C0CF /* TIPImageViewFetchHelper.h */,
+				6D8131F5B6B737D76A71D635520ADB4C /* TIPImageViewFetchHelper.m */,
+				C583CEC8656D330C0B2736C5F4CBAC65 /* TIPInspectableCache.h */,
+				EC54F0CFDA078077E866293B42503617 /* TIPLogger.h */,
+				7E4C80A6A507A558F65E5C305FFE1B02 /* TIPLRUCache.h */,
+				35484C2EF3F9B5CCFCBC8E5A1DFA2279 /* TIPLRUCache.m */,
+				330E7513F1227A38E27E7B27CCC06A6A /* TIPPartialImage.h */,
+				80F8D23CC249B0B7EF6AFD3BD93D8D86 /* TIPPartialImage.m */,
+				1CE9F39723374EB4D4EDC1BD4BFD0505 /* TIPProgressive.h */,
+				A07EB867AABEDBC5D7400BFAEDC40C23 /* TIPTiming.h */,
+				5C9883CD85332950D213226A4AB8672D /* TIPTiming.m */,
+				DB5D8FDB6E121D5EBC040FE82EDBB84E /* TIPURLStringCoding.h */,
+				96731B066EC8DF379EAF939D607A3036 /* TIPURLStringCoding.m */,
+				38987742568C37613095CD4AA0B62980 /* TwitterImagePipeline.h */,
+				904B785528148ADCDA518CF133C8A0C6 /* UIImage+TIPAdditions.h */,
+				16FDCFE0831EE086AE95C001C4143CF0 /* UIImage+TIPAdditions.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		A636C2B99BDE6BCBF0C683FA630B8A5F /* Pods-TIP_Lesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				48F934A02CE9BA916DC86DEF1BA6D6FB /* Info.plist */,
+				D4754CEF7C1F1805E9DA567E43111461 /* Pods-TIP_Lesson1.modulemap */,
+				D37E1A67677C39E2443A10ED0E633901 /* Pods-TIP_Lesson1-acknowledgements.markdown */,
+				BD33213529A2B7DE65A6E2781392C707 /* Pods-TIP_Lesson1-acknowledgements.plist */,
+				79AC8D3C0FD6DA683228819A28460EF5 /* Pods-TIP_Lesson1-dummy.m */,
+				BD4DCF0716C1C004AA8B459C002934A0 /* Pods-TIP_Lesson1-frameworks.sh */,
+				5C09B7FD87BDC813EEFAE5DFF81F57A2 /* Pods-TIP_Lesson1-resources.sh */,
+				98AB645A7FC0E56EBE3E57C3FAFE82B4 /* Pods-TIP_Lesson1-umbrella.h */,
+				595CB13A66A9A5EACA8031887C6E99A7 /* Pods-TIP_Lesson1.debug.xcconfig */,
+				9CB9F5E75E8941A3BF6136B780C6B6DA /* Pods-TIP_Lesson1.release.xcconfig */,
+			);
+			name = "Pods-TIP_Lesson1";
+			path = "Target Support Files/Pods-TIP_Lesson1";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB42B539CD3F5FBDC23C26BD392CDD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E16515597E95C4494BEA0E449F03DDD /* Pods_TIP_Lesson1.framework */,
+				C6B303B61AD3FE3F3CA2BE1A476D97A4 /* TwitterImagePipeline.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17BB2CE386661714C3E42422CFC4278C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAD9D795E3D3E92AA51A2770F4F664D7 /* NSData+TIPAdditions.h in Headers */,
+				3832BADA68C7C93B6BA36DFF7BA3412A /* NSDictionary+TIPAdditions.h in Headers */,
+				BA6AE2CB041888A24A00627F9207FC81 /* NSOperationQueue+TIPSafety.h in Headers */,
+				F3A78F98A5299D31E2D5EAEA43BCB065 /* TIP_Project.h in Headers */,
+				161CCD1C9EF4D8B433892E0843071C37 /* TIP_ProjectCommon.h in Headers */,
+				89DA081FD65FB4587629F61B371E9C6F /* TIPDefaultImageCodecs.h in Headers */,
+				66EB6B8C15C2E2E36C6984A20C9A9036 /* TIPDefinitions.h in Headers */,
+				FC877B8C66FFA8703365C47858971B34 /* TIPError.h in Headers */,
+				0AA2EDECD5EAF6B612047940CB39E94A /* TIPFileUtils.h in Headers */,
+				DBC890186F4089A6FBA6A93DCB0F1F2B /* TIPGlobalConfiguration+Project.h in Headers */,
+				D1FCB24919397B961C879D4C69FFF044 /* TIPGlobalConfiguration.h in Headers */,
+				3F44B9F9F1E7F23E4CD44BD809EDEAD3 /* TIPImageCache.h in Headers */,
+				63C5AB4A592FB2E09030695BD34901F9 /* TIPImageCacheEntry.h in Headers */,
+				70F0E27B66BDF6B4DA7C8C51E5C50399 /* TIPImageCodecCatalogue.h in Headers */,
+				748D6829AFA2BAD50A64A4ABE1ECB8C9 /* TIPImageCodecs.h in Headers */,
+				1EAA18C2B5D58B719682DE5E63152005 /* TIPImageContainer.h in Headers */,
+				866AE7BF1F6C53B10261387633A0F8D6 /* TIPImageDiskCache.h in Headers */,
+				3B8D9ECAD29E4EDCF30B02C2BDC4228B /* TIPImageDiskCacheTemporaryFile.h in Headers */,
+				763AB3FDF4A2876B1738635D36D13533 /* TIPImageDownloader.h in Headers */,
+				60036511E093E61F1DD985D1CD72ED7C /* TIPImageDownloadInternalContext.h in Headers */,
+				F5F9793C021BE56277F73610ACBD6521 /* TIPImageFetchDelegate.h in Headers */,
+				DBA72E232C802F3BD37DA518F30B3507 /* TIPImageFetchDownload.h in Headers */,
+				4143A37083753F4173919E81E116F68F /* TIPImageFetchDownloadInternal.h in Headers */,
+				DECF7318E13326596A9A63E1D92F9461 /* TIPImageFetchMetrics+Project.h in Headers */,
+				2D47D7663EC07B2C442D947527892C0F /* TIPImageFetchMetrics.h in Headers */,
+				22A3AFBC7394A467A61AC5AF6C3FF513 /* TIPImageFetchOperation+Project.h in Headers */,
+				A751AA5E8967FC594BF67800BA33D9BA /* TIPImageFetchOperation.h in Headers */,
+				E30950E42ED16AC1C473E42A82DDFD71 /* TIPImageFetchProgressiveLoadingPolicies.h in Headers */,
+				15844C0BA5FD3A093B2F178B72991ADA /* TIPImageFetchProgressiveLoadingPolicy+StaticClass.h in Headers */,
+				17530265C331376E6875F10D70E952A7 /* TIPImageFetchRequest.h in Headers */,
+				FE26173A54A9BD723D9CDAA95B8E94DE /* TIPImageMemoryCache.h in Headers */,
+				7C2945DC261423CE1A1719F928EBA9DB /* TIPImagePipeline+Project.h in Headers */,
+				3D240BF56BEEEFC4F96008BF32366273 /* TIPImagePipeline.h in Headers */,
+				61D2BC1922D39EE07CB2B3392773DB4B /* TIPImagePipelineInspectionResult+Project.h in Headers */,
+				CDE3AEDFE508A7E0708B527A3702C4ED /* TIPImagePipelineInspectionResult.h in Headers */,
+				86279CCCE0056B8F65359E8565293E34 /* TIPImageRenderedCache.h in Headers */,
+				BEDC40E696FF08ADE6CDB7C5A6EDF8B4 /* TIPImageStoreOperation.h in Headers */,
+				253FF9DC48F9F967A034958824828675 /* TIPImageStoreRequest.h in Headers */,
+				6049437DB56F4FE2B933D1EF3F479E10 /* TIPImageTypes.h in Headers */,
+				900D63A9A7720A80B2F47057B2B7FA0C /* TIPImageUtils.h in Headers */,
+				0B1AAF4DEAD3459E17BC29857AB06FA8 /* TIPImageView.h in Headers */,
+				AC064C20EC7E9E74D62D99B499767381 /* TIPImageViewFetchHelper.h in Headers */,
+				67C9CD223085C7C79308A0003908F73B /* TIPInspectableCache.h in Headers */,
+				7F032340640A83EEC5F6C92CCF16EA6A /* TIPLogger.h in Headers */,
+				33852AFAEDA554285C4CAD2EF6724375 /* TIPLRUCache.h in Headers */,
+				3D88083C2EEB246E0AB64393C55432B8 /* TIPPartialImage.h in Headers */,
+				0F7C722808B91EE71E590027C7A3FA3C /* TIPProgressive.h in Headers */,
+				2A4183F027AC6215C241847EB4C3C2B9 /* TIPTiming.h in Headers */,
+				F85DB33C6943C0A105D4F84F5FFA6D85 /* TIPURLStringCoding.h in Headers */,
+				E4261E2B1303C83EAAF5C85889CE9C16 /* TwitterImagePipeline-umbrella.h in Headers */,
+				8F3BA82BA81602D955B2AF946E5B6AA4 /* TwitterImagePipeline.h in Headers */,
+				6688D81F2AC6FFB8582A46A2C859A004 /* UIImage+TIPAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA657B2FEA879103571717E955FADE5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9B80CC58DCB5767395870400A672FE /* Pods-TIP_Lesson1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07783F1FDFD00069E80018A32CE4F234 /* TwitterImagePipeline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA9A5E9F232F616B3ADEABCBB6EE54A /* Build configuration list for PBXNativeTarget "TwitterImagePipeline" */;
+			buildPhases = (
+				DF10AFDC8863FCD7260247F7AF58E631 /* Sources */,
+				57D5BC0868D48E791F11A3386E158063 /* Frameworks */,
+				17BB2CE386661714C3E42422CFC4278C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterImagePipeline;
+			productName = TwitterImagePipeline;
+			productReference = C6B303B61AD3FE3F3CA2BE1A476D97A4 /* TwitterImagePipeline.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85968CC324BE91C1ADF36FC411A20737 /* Pods-TIP_Lesson1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC0D104124720A974A3C17DDB04BDD2 /* Build configuration list for PBXNativeTarget "Pods-TIP_Lesson1" */;
+			buildPhases = (
+				FD4EE129C2AD502FA9893CA2D69737F8 /* Sources */,
+				42D278801BD82B388C0194F49531C9DD /* Frameworks */,
+				CA657B2FEA879103571717E955FADE5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7104F45C904EBDE788E0192D4D352EEC /* PBXTargetDependency */,
+			);
+			name = "Pods-TIP_Lesson1";
+			productName = "Pods-TIP_Lesson1";
+			productReference = 5E16515597E95C4494BEA0E449F03DDD /* Pods_TIP_Lesson1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CAB42B539CD3F5FBDC23C26BD392CDD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85968CC324BE91C1ADF36FC411A20737 /* Pods-TIP_Lesson1 */,
+				07783F1FDFD00069E80018A32CE4F234 /* TwitterImagePipeline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF10AFDC8863FCD7260247F7AF58E631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6EF81D433AF978035B5C2DAB6FA79A6 /* NSData+TIPAdditions.m in Sources */,
+				DF60FB4FB007DEF3DE0BD6B9E2D9A742 /* NSDictionary+TIPAdditions.m in Sources */,
+				0E8377EF25ABAB2823B1F299669973D1 /* NSOperationQueue+TIPSafety.m in Sources */,
+				8135CB5167F1F4F4081928F7198FED78 /* TIP_Project.m in Sources */,
+				39F12643E656AB7F13B5A4BE1FE77E39 /* TIP_ProjectCommon.m in Sources */,
+				957F462A6FABFB78DE1EFD4DBDF1EE5C /* TIPDefaultImageCodecs.m in Sources */,
+				1EC2D4ED0125012075E4A0ADCE03A96F /* TIPFileUtils.m in Sources */,
+				F6739DA73356677E6C91F04CB05070B7 /* TIPGlobalConfiguration.m in Sources */,
+				CB4F1ECF6791915D736844B9C8EAC170 /* TIPImageCacheEntry.m in Sources */,
+				C1B0D82A3DE40A0A8F87AD2C53777B5B /* TIPImageCodecCatalogue.m in Sources */,
+				5455F3587A608CF7A5576035407EDB7D /* TIPImageCodecs.m in Sources */,
+				2FE16EE3B592B91C0E54ACD418D8A2F5 /* TIPImageContainer.m in Sources */,
+				F42177FB08EE85FF9174CE609017E145 /* TIPImageDiskCache.m in Sources */,
+				EFB6ED61EAA3FD1DFE67A878A4A1725C /* TIPImageDiskCacheTemporaryFile.m in Sources */,
+				322BABA0B6F9A2645A285E484C1E32E7 /* TIPImageDownloader.m in Sources */,
+				356BD129E8FAD54BADEB53D030108290 /* TIPImageDownloadInternalContext.m in Sources */,
+				4473070844DBCEF36F4901BA7E18ABAF /* TIPImageFetchDownload.m in Sources */,
+				B4EC064724EE7CF01144C0088CF7B078 /* TIPImageFetchMetrics.m in Sources */,
+				8EBFB46FF11153E3509ADC01F1BFBFB3 /* TIPImageFetchOperation.m in Sources */,
+				70A20370E4DAC9F43DC737CC2CF9CA30 /* TIPImageFetchProgressiveLoadingPolicies.m in Sources */,
+				54948189D1E4A66E4E9D67D34C09FDCE /* TIPImageMemoryCache.m in Sources */,
+				BDDB40196EF34C85C562E075ADF6AC89 /* TIPImagePipeline.m in Sources */,
+				9E996D053343DD71D4C7003E3E336F93 /* TIPImagePipelineInspectionResult.m in Sources */,
+				1A93F3646B3671E827BB2144472A6F75 /* TIPImageRenderedCache.m in Sources */,
+				41689EDF0929DF2212EB50AE217E495F /* TIPImageStoreOperation.m in Sources */,
+				6282F6791BD2839B14C21CE2CAD39BCB /* TIPImageTypes.m in Sources */,
+				17ADFA2D17D190A0C2DC7B80169D74D8 /* TIPImageUtils.m in Sources */,
+				B41C534161B5F05872A9B2801A2B1E07 /* TIPImageView.m in Sources */,
+				7E873465D33035D84B825A0B5F0D24B1 /* TIPImageViewFetchHelper.m in Sources */,
+				267F772E8ABB46F41516716824BC444D /* TIPLRUCache.m in Sources */,
+				C1C5C9FABA2AC1597DF891D5D27DCEBD /* TIPPartialImage.m in Sources */,
+				633BF4343134809B84A345FB25CFAF8A /* TIPTiming.m in Sources */,
+				15818C8B7DC2EE760FD2D7DEDF850495 /* TIPURLStringCoding.m in Sources */,
+				05B6BA1EE116D41BF4AC25CAC1E471DA /* TwitterImagePipeline-dummy.m in Sources */,
+				A2500AC234BCD45BA664D35798B9C6D5 /* UIImage+TIPAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4EE129C2AD502FA9893CA2D69737F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DC5BEF5C6518F83FAB429A02977226 /* Pods-TIP_Lesson1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7104F45C904EBDE788E0192D4D352EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitterImagePipeline;
+			target = 07783F1FDFD00069E80018A32CE4F234 /* TwitterImagePipeline */;
+			targetProxy = 62BA7763BD7717596D032877F2CA489D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		666B6725C2D674BA4FF4D232FC1932F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7645CC1D3A559A9EFB5FEE2B076B7F7 /* TwitterImagePipeline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TwitterImagePipeline/TwitterImagePipeline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwitterImagePipeline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TwitterImagePipeline/TwitterImagePipeline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TwitterImagePipeline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7467A57593DE052203E5D8306DB65453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7645CC1D3A559A9EFB5FEE2B076B7F7 /* TwitterImagePipeline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TwitterImagePipeline/TwitterImagePipeline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwitterImagePipeline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TwitterImagePipeline/TwitterImagePipeline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TwitterImagePipeline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		876D7FC92A6905991BC4754EB7EEFA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB9F5E75E8941A3BF6136B780C6B6DA /* Pods-TIP_Lesson1.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TIP_Lesson1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TIP_Lesson1/Pods-TIP_Lesson1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TIP_Lesson1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9982F558673FE13AB8C4080029FCB195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595CB13A66A9A5EACA8031887C6E99A7 /* Pods-TIP_Lesson1.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TIP_Lesson1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TIP_Lesson1/Pods-TIP_Lesson1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TIP_Lesson1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC0D104124720A974A3C17DDB04BDD2 /* Build configuration list for PBXNativeTarget "Pods-TIP_Lesson1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9982F558673FE13AB8C4080029FCB195 /* Debug */,
+				876D7FC92A6905991BC4754EB7EEFA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA9A5E9F232F616B3ADEABCBB6EE54A /* Build configuration list for PBXNativeTarget "TwitterImagePipeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666B6725C2D674BA4FF4D232FC1932F4 /* Debug */,
+				7467A57593DE052203E5D8306DB65453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
